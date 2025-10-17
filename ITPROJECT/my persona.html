@@ -1,0 +1,252 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+  <meta charset="utf-8" />
+  <meta name="viewport" content="width=device-width, initial-scale=1" />
+  <title>Chukwu peter ekene — Portfolio</title>
+  <meta name="description" content="Portfolio of Chukwu Peter Ekene (University of Nigeria, Nsukka). Frontend practice, UI design, and clean, responsive web projects." />
+  <meta name="color-scheme" content="light dark">
+  <link rel="preconnect" href="https://fonts.googleapis.com">
+  <link rel="preconnect" href="https://fonts.gstatic.com" crossorigin>
+  <link href="https://fonts.googleapis.com/css2?family=Inter:wght@400;500;600;700;800&display=swap" rel="stylesheet">
+  <link rel="stylesheet" href="style.css" />
+</head>
+<body>
+  <!-- ===== Header ===== -->
+  <header>
+    <div class="wrap nav">
+      <a class="brand" href="#">
+        <span class="dot" aria-hidden="true"><img class="avatar" src="CODEXIMG.jpg"></span>
+        <span>CodeX</span>
+      </a>
+
+      <label class="menu-btn" for="menu-toggle" aria-label="Open navigation">☰ Menu</label>
+      <input type="checkbox" id="menu-toggle" aria-hidden="true" />
+      <nav class="links" aria-label="Primary">
+        <a href="#about">About</a>
+        <a href="#skills">Skills</a>
+        <a href="#projects">Projects</a>
+        <a href="#services">Services</a>
+        <a href="#contact" class="cta">Contact</a>
+      </nav>
+    </div>
+  </header>
+
+  <main>
+    <!-- ===== Hero ===== -->
+    <section class="wrap hero">
+      <div class="card intro">
+        <div class="eyebrow">
+          <span class="pill">Undergraduate — University of Nigeria, Nsukka</span>
+          <span>•</span>
+          <span>Nigeria</span>
+        </div>
+
+        <h1>Hi, I’m <span class="accent">Peter Ekene</span> — learning, building, and sharing.</h1>
+        <p class="tagline">
+          I’m an undergraduate at UNN exploring frontend development and UI design.
+          I enjoy clean, accessible interfaces and practical projects that solve real problems.
+        </p>
+
+        <div class="actions">
+          <a class="btn primary" href="#contact">Hire / Contact me</a>
+          <a class="btn" href="#projects">View projects</a>
+          <a class="btn" href="#" aria-disabled="true">Download CV (soon)</a>
+        </div>
+
+        <div class="quick-links">
+          <a href="mailto:chukwupeter629@gmail.com">chukwupeter629@gmail.com</a>
+          · <a href="#" rel="me">GitHub</a>
+          · <a href="#" rel="me">LinkedIn</a>
+          · <a href="#" rel="me">X</a>
+        </div>
+      </div>
+
+      <figure class="card photo">
+        <!-- Replace images/me.jpg with your actual filename if different -->
+        <img class="avatar" src="MYIMG.jpg" alt="Portrait of Chukwu Peter Ekene" />
+      </figure>
+    </section>
+
+    <!-- ===== About ===== -->
+    <section id="about" class="wrap">
+      <h2>About</h2>
+      <p class="sub">A snapshot of who I am and what I’m building toward.</p>
+
+      <div class="grid">
+        <div class="col-6 tile">
+          <h3>Biography</h3>
+          <p>
+            I am an enthusiastic learner at the University of Nigeria, Nsukka. My focus is on web
+            development—HTML, CSS, and JavaScript—and turning ideas into simple, responsive pages.
+            I’m building small but meaningful projects, improving accessibility and performance,
+            and preparing for internships and freelance opportunities.
+          </p>
+        </div>
+
+        <div class="col-6 tile">
+          <h3>Highlights</h3>
+          <ul>
+            <li>Built multiple responsive landing pages and component snippets.</li>
+            <li>Practicing accessibility and modern CSS layouts (Flexbox/Grid).</li>
+            <li>Learning Git/GitHub, React basics, and design systems.</li>
+          </ul>
+        </div>
+      </div>
+
+      <div class="grid" style="margin-top:18px">
+        <div class="col-6 tile">
+          <h3>Education</h3>
+          <p><strong>University of Nigeria, Nsukka</strong><br/>Undergraduate — Ongoing</p>
+        </div>
+        <div class="col-6 tile">
+          <h3>Interests</h3>
+          <p>Frontend engineering, UI/UX, design systems, accessibility, and open source.</p>
+        </div>
+      </div>
+    </section>
+
+    <!-- ===== Skills ===== -->
+    <section id="skills" class="wrap">
+      <h2>Skills</h2>
+      <p class="sub">Tools and concepts I’m practicing and using.</p>
+      <div class="chips">
+        <span class="chip">HTML5</span>
+        <span class="chip">CSS3 / Flexbox / Grid</span>
+        <span class="chip">Responsive Design</span>
+        <span class="chip">Accessibility (a11y)</span>
+        <span class="chip">JavaScript (Basics)</span>
+        <span class="chip">Git & GitHub</span>
+        <span class="chip">UI/UX Fundamentals</span>
+        <span class="chip">Figma</span>
+      </div>
+    </section>
+
+    <!-- ===== Projects ===== -->
+    <section id="projects" class="wrap">
+      <h2>Projects</h2>
+      <p class="sub">Sample projects (replace with your real work as you build).</p>
+
+      <div class="grid">
+        <article class="col-6 tile project">
+          <img src="https://images.unsplash.com/photo-1551281044-8b6b5be0c9f3?q=80&w=1200&auto=format&fit=crop"
+               alt="Student portal concept" class="project-shot">
+          <h3>UNN Student Portal Concept</h3>
+          <p class="meta">Frontend • 2025 • HTML, CSS</p>
+          <p>A mobile-first dashboard with quick actions, timetable, and notifications.</p>
+          <p><a href="#" target="_blank" rel="noopener">Live demo</a> · <a href="#" target="_blank" rel="noopener">Case study</a></p>
+        </article>
+
+        <article class="col-6 tile project">
+          <img src="https://images.unsplash.com/photo-1519389950473-47ba0277781c?q=80&w=1200&auto=format&fit=crop"
+               alt="ShopX landing page" class="project-shot">
+          <h3>ShopX Landing Page</h3>
+          <p class="meta">UI Design • 2025 • Figma → HTML/CSS</p>
+          <p>Modern ecommerce hero, grid sections, and fast semantic HTML/CSS.</p>
+          <p><a href="#" target="_blank" rel="noopener">Live demo</a> · <a href="#" target="_blank" rel="noopener">Repository</a></p>
+        </article>
+
+        <article class="col-6 tile project">
+          <img src="https://images.unsplash.com/photo-1518779578993-ec3579fee39f?q=80&w=1200&auto=format&fit=crop"
+               alt="Components library" class="project-shot">
+          <h3>Components Library</h3>
+          <p class="meta">Frontend • 2025 • HTML, CSS</p>
+          <p>Reusable buttons, cards, navbars, and forms—documented for reuse.</p>
+          <p><a href="#" target="_blank" rel="noopener">Live demo</a> · <a href="#" target="_blank" rel="noopener">Docs</a></p>
+        </article>
+
+        <article class="col-6 tile project">
+          <img src="https://images.unsplash.com/photo-1557821552-17105176677c?q=80&w=1200&auto=format&fit=crop"
+               alt="Accessible form kit" class="project-shot">
+          <h3>Accessible Form Kit</h3>
+          <p class="meta">Frontend • 2025 • HTML, CSS, a11y</p>
+          <p>Labelled inputs, hints, errors, and focus states that meet WCAG.</p>
+          <p><a href="#" target="_blank" rel="noopener">Live demo</a> · <a href="#" target="_blank" rel="noopener">Repository</a></p>
+        </article>
+      </div>
+    </section>
+
+    <!-- ===== Services ===== -->
+    <section id="services" class="wrap">
+      <h2>Services</h2>
+      <p class="sub">Available for small projects and collaborations.</p>
+
+      <div class="grid">
+        <div class="col-4 tile">
+          <h3>Web Pages</h3>
+          <p>Fast, responsive portfolio/landing pages for individuals and small businesses.</p>
+        </div>
+        <div class="col-4 tile">
+          <h3>UI Prototypes</h3>
+          <p>Clickable prototypes and component design to validate ideas quickly.</p>
+        </div>
+        <div class="col-4 tile">
+          <h3>Code Clean-ups</h3>
+          <p>Refactor HTML/CSS for clarity, accessibility, and better structure.</p>
+        </div>
+      </div>
+    </section>
+
+    <!-- ===== Contact ===== -->
+    <section id="contact" class="wrap">
+      <h2>Contact</h2>
+      <p class="sub">
+        Prefer email? <a href="mailto:chukwupeter629@gmail.com">chukwupeter629@gmail.com</a>.
+        This form uses <code>mailto:</code> and works without a backend.
+      </p>
+
+     <form id="contactForm" action="https://formspree.io/f/xeornlaz" method="POST">
+        <!-- optional hidden spam trap -->
+        <input type="text" name="_honey" style="display:none">
+      
+        <label for="name" class="sr-only">Your name</label>
+        <input id="name" name="name" type="text" placeholder="Your name" required class="input">
+      
+        <label for="email" class="sr-only">Email</label>
+        <input id="email" name="email" type="email" placeholder="Your email" required class="input">
+      
+        <label for="message" class="sr-only">Message</label>
+        <textarea id="msg" name="message" placeholder="Tell me about your idea..." rows="5" class="input"></textarea>
+        <button class="btn primary" type="submit">Send message</button>
+      </form>
+        <!-- Success/Error text -->
+<p id="form-status" style="margin-top:10px;"></p>
+
+<script>
+const form = document.getElementById('contactForm');
+const status = document.getElementById('form-status');
+
+form.addEventListener('submit', async (e) => {
+  e.preventDefault();
+  status.textContent = "Sending...";
+  const data = new FormData(form);
+  const res = await fetch(form.action, {
+    method: form.method,
+    body: data,
+    headers: { 'Accept': 'application/json' }
+  });
+  if (res.ok) {
+    status.textContent = "✅ Message sent successfully!";
+    status.style.color = "#4CAF50"; // green text
+    form.reset();
+  } else {
+    status.textContent = "❌ Something went wrong. Please try again.";
+    status.style.color = "#f44336"; // red text
+  }
+});
+</script>
+      </form>
+    </section>
+  </main>
+
+  <!-- ===== Footer ===== -->
+  <footer>
+    <div class="wrap footgrid">
+      <div>© <span id="year"></span> Chukwu Peter Ekene. All rights reserved.</div>
+      <div>Built with semantic HTML & modern CSS. No frameworks.</div>
+    </div>
+  </footer>
+
+  <script>document.querySelector('#year').textContent = new Date().getFullYear();</script>
+</body>
+</html>
